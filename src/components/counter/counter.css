@@ -1,0 +1,27 @@
+.counterButton {
+	display: flex;
+	align-items: center;
+}
+.counterButton .buttonStyle {
+	background-color: #acb1d6;
+	color: white;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	border: none;
+	margin-left: 5px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+.counterButton .buttonStyle:hover {
+	background-color: #e7bcde;
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+.counterButton p {
+	margin: 10px;
+	line-height: 30px;
+}

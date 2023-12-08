@@ -1,0 +1,50 @@
+/* UsersList.css */
+
+.users-list-container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+.users-list-container h1 {
+	color: #acb1d6;
+	font-family: cursive;
+	font-weight: 600;
+	font-size: 24px;
+	margin-top: 20px;
+	line-height: 50px;
+	background-color: #dbdfea;
+}
+.users-list-container .users-list {
+	list-style: none;
+	padding: 0;
+}
+
+.users-list-container .user-item {
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.users-list-container .user-details {
+	flex: 2;
+}
+
+.users-list-container .username {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.users-list-container .email {
+	color: #555;
+}
+
+.users-list-container .admin-flag,
+.users-list-container .active-flag {
+	margin: 5px 0;
+}
+
+.users-list-container .user-status {
+	flex: 1;
+	text-align: right;
+}

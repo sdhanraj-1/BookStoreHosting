@@ -1,0 +1,48 @@
+.dropdown {
+	position: relative;
+}
+.add-to-bl {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 2rem; /* Adjust the width to your desired value */
+	height: 2rem; /* Adjust the height to your desired value */
+	background-color: #faeed1;
+	border: 3px solid rgba(17, 229, 225, 0);
+	border-radius: 8px;
+	cursor: pointer;
+	transition: transform 0.15s ease-in-out;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+.dropdownList {
+	position: absolute;
+	top: -3px; /* Adjust the distance from add-to-bl as needed */
+	left: -192px;
+	background-color: #fff; /* Adjust background color as needed */
+	border: 1px solid #faeed1;
+	border-radius: 8px;
+	box-shadow: 0 0 10px #ded0b6;
+	z-index: 8; /* Ensure the dropdown is above other elements */
+}
+.add-to-bl:hover {
+	background-color: rgba(250, 238, 209, 0.678);
+}
+
+.close-dropdown {
+	background-color: #bbab8c;
+	color: #ecf4d6;
+	height: 15px;
+	width: 20px;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	top: -20px; /*10px*/
+	right: -200px; /*90px*/
+	margin: 10px;
+	z-index: 999;
+}
+.close-dropdown:hover {
+	background-color: rgba(222, 208, 182, 0.5);
+	transform: scale(1.1);
+}

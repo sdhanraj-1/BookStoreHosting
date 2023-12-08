@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Life+Savers:wght@400;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@300;400;600&display=swap");
+
+.main-body {
+	margin-top: 120px;
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.main-title {
+	font-size: 24px;
+	color: #8294c4;
+	text-align: center;
+	display: block;
+	width: auto;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 70px;
+	background-color: #dbdfea;
+	line-height: 50px;
+}
+
+.main-title span {
+	color: #c3acd0;
+	font-weight: 600;
+}
+
+.book-list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: start;
+	padding: 3rem;
+	gap: 2rem;
+}
+
+@media all and (max-width: 767px) {
+	.main-title {
+		font-size: 2.3rem;
+		width: 180px;
+		margin: auto;
+		margin-top: 100px;
+	}
+
+	.book-list {
+		grid-template-columns: repeat(1, 1fr);
+		padding: 3rem;
+		margin-top: 50px;
+	}
+}

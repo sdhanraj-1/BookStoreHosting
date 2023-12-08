@@ -1,0 +1,25 @@
+.searchResultsTitle {
+	font-size: 24px;
+	color: #8294c4;
+	text-align: center;
+	display: block;
+	width: auto;
+	height: 50px;
+	margin-top: 70px;
+	background-color: #dbdfea;
+	line-height: 50px; /* Adjust the line-height value to center vertically */
+}
+.searchResultsTitle span {
+	color: #acb1d6;
+	font-family: Snell Roundhand, cursive;
+	margin-left: 30px;
+}
+.ending {
+	color: #acb1d6;
+	font-family: cursive;
+	font-size: 24px;
+	margin-top: 20px;
+	margin-left: 20px;
+	line-height: 50px; /* Adjust the line-height value to center vertically */
+	background-color: #dbdfea;
+}

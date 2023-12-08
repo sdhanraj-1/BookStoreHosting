@@ -1,0 +1,86 @@
+.detailsPageHeadline {
+	font-size: 24px;
+	color: #8294c4;
+	text-align: center;
+	display: block;
+	width: auto;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 70px;
+	background-color: #dbdfea;
+	line-height: 50px;
+}
+.detailspage {
+	position: relative;
+	max-width: 800px; /* Adjusted maximum width for better responsiveness */
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+	overflow: hidden; /* Ensures rounded corners are applied properly */
+	margin-top: 20px;
+	/* Additional styles to improve layout on smaller screens */
+	@media (max-width: 600px) {
+		padding: 15px;
+	}
+}
+.detailsPageHeadline span {
+	font-family: URW Chancery L, cursive;
+	font-size: 28px;
+	margin: 6px;
+}
+.detailspage .detail-bl-button,
+.detailspage .detail-cart-button {
+	@media (max-width: 600px) {
+		margin-right: 0; /* Reset margin on smaller screens */
+	}
+	margin-top: 20px; /* Adjusted top margin for spacing */
+	text-align: center; /* Center the button */
+	height: 10px;
+	width: 188px;
+}
+.detailspage .detail-bl-button {
+	position: absolute;
+	top: 10px; /* Adjust top position as needed */
+	right: 118px;
+}
+.detailspage .detail-cart-button {
+	position: absolute;
+	top: 10px; /* Adjust top position as needed */
+	right: 165px;
+}
+.detailspage .details-img {
+	float: left;
+	margin-right: 20px;
+	margin-top: 20px; /* Reduced top margin for better alignment */
+	max-width: 200px; /* Limit image width */
+	border-radius: 10px; /* Rounded corners for the image */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	/* Additional styles for better responsiveness */
+	@media (max-width: 600px) {
+		float: none;
+		margin: 0 auto 20px; /* Center the image on smaller screens */
+		display: block;
+	}
+}
+
+.detailspage .details-title {
+	margin-top: 10px;
+	font-size: 24px; /* Increased font size for the title */
+}
+
+.detailspage .details-author,
+.detailspage .details-category {
+	margin-top: 5px;
+	font-style: italic; /* Italics for author and category */
+}
+
+.detailspage .details-descr {
+	margin-top: 20px; /* Adjusted top margin for better spacing */
+	font-size: 16px; /* Increased font size for better readability */
+	text-align: justify;
+	line-height: 1.5; /* Improved line height for better readability */
+}
+
+/* Add more styles as needed for other details */

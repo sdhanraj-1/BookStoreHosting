@@ -1,0 +1,76 @@
+/* Style for the main container */
+.shoppingCartTitle {
+	font-size: 24px;
+	color: #8294c4;
+	text-align: center;
+	display: block;
+	width: auto;
+	height: 50px;
+	margin-top: 70px;
+	background-color: #dbdfea;
+	line-height: 50px;
+}
+
+.cartPayment {
+	color: #acb1d6;
+	font-size: 24px;
+	margin-top: 20px;
+	margin-left: 20px;
+	line-height: 50px;
+	background-color: #dbdfea;
+	text-align: center;
+}
+
+.cartPayment i {
+	padding: 5px;
+}
+.cartPayment i:hover {
+	background-color: rgba(172, 166, 226, 0.774);
+	border-radius: 10px;
+	color: #fff;
+	transition: background-color 0.3s, color 0.3s;
+}
+.cartPayment li {
+	list-style: none;
+	display: inline-block;
+	margin: 5px;
+	font-size: 16px;
+}
+.cartPayment span {
+	font-family: cursive;
+	font-size: 24px;
+}
+.paymentForm {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, 1); /* Adjusted transparency */
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	max-height: 500px; /* Set a maximum height for the container */
+	overflow-y: auto; /* Add scroll if content exceeds the max height */
+	width: 500px; /* Set a fixed width for the container */
+	text-align: center; /* Center the content horizontally */
+	z-index: 3;
+}
+.paymentForm .btn-close {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	z-index: 999;
+}
+.paymentForm .btn-close:hover {
+	background-color: aliceblue;
+}
+.warning p {
+	margin: 200, auto;
+	font-size: 90px;
+	font-family: Georgia, serif;
+}
+@media (max-width: 768px) {
+	div.product {
+		flex: 0 0 calc(50% - 30px); /* Adjust for two products in a row on smaller screens */
+	}
+}

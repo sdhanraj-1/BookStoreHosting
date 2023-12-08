@@ -1,0 +1,24 @@
+/* CSS */
+.book-search-page {
+	margin: 30px; /* Add margin for spacing between books */
+	width: 250px; /* Set a fixed width for each book container */
+	height: 250px; /* Set a fixed height for each book container */
+	display: inline-block; /* Display books next to each other */
+}
+
+.card-search-page {
+	width: 200px;
+	height: 200px;
+	border-radius: 1rem;
+	padding: 0.5rem;
+	box-shadow: 0 5px 5px rgba(212, 185, 150, 0.5);
+	transition: 0.5s;
+	text-align: center;
+	position: relative;
+	/* 	overflow-y: auto; */
+}
+
+.card-search-page:hover {
+	transform: scale(0.8);
+	background-color: rgba(255, 255, 255, 0.8);
+}

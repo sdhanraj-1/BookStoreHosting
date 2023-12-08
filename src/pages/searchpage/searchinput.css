@@ -1,0 +1,22 @@
+/* styles.css */
+.search-results-container {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, 0.9); /* Adjusted transparency */
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	max-height: 500px; /* Set a maximum height for the container */
+	overflow-y: auto; /* Add scroll if content exceeds the max height */
+	width: 500px; /* Set a fixed width for the container */
+	text-align: center; /* Center the content horizontally */
+}
+
+.search-results-container .btn-close {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	z-index: 999;
+}

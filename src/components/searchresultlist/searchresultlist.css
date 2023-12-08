@@ -1,0 +1,51 @@
+.results-list {
+	width: 435px;
+	background-color: white;
+	box-shadow: 0px 0px 8px #ddd;
+	border-radius: 10px;
+}
+
+.results-list .list-group-item {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 4px solid #ddddddfd;
+}
+
+.results-list .list-group-item img {
+	width: 138.76px;
+	min-width: 138.76px;
+	height: 100%;
+	margin-right: 10px;
+	border-radius: 5px;
+	object-fit: cover;
+}
+
+.results-list .title-author-search-list {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+	width: 500px;
+}
+
+.results-list .title-search-list,
+.results-list .author-search-list,
+.results-list .category-search-list {
+	display: inline-block;
+	margin: 0;
+	font-weight: bold;
+	align-items: center;
+	text-align: center;
+}
+
+.results-list .author-search-list {
+	color: rgb(131, 120, 230);
+}
+
+.results-list .category-search-list {
+	color: rgb(95, 91, 130);
+}
+
+.results-list #search-icon {
+	color: royalblue;
+}

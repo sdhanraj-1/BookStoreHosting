@@ -1,0 +1,13 @@
+.view-book-list-button {
+	margin: 10px;
+	padding: 0.3rem 0.5rem;
+	background-color: #ebe3d5;
+	border: 3px solid rgba(17, 229, 225, 0);
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.view-book-list-button:hover {
+	background-color: rgba(243, 238, 234, 0.678);
+	transition: background-color 0.2s, color 0.2s;
+}

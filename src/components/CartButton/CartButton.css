@@ -1,0 +1,25 @@
+/* cartButton.css */
+
+.cart-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.3rem 0.5rem;
+	background-color: #faeed1;
+	border: 3px solid rgba(17, 229, 225, 0);
+	border-radius: 8px;
+	padding: auto;
+	cursor: pointer;
+	transition: transform 0.15s ease-in-out;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+.cart-button:hover {
+	transform: scale(1.2);
+	background-color: rgba(253, 247, 228, 0.678);
+}
+/* .cart-button svg {
+	width: 24px; 
+	height: 24px;
+} */

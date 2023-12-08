@@ -1,0 +1,19 @@
+.delete-from-bl {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 2rem; /* Adjust the width to your desired value */
+	height: 2rem; /* Adjust the height to your desired value */
+	background-color: #faeed1;
+	border: 3px solid rgba(17, 229, 225, 0);
+	border-radius: 8px;
+	cursor: pointer;
+	transition: transform 0.15s ease-in-out;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+.delete-from-bl:hover {
+	transform: scale(1.2);
+	background-color: rgba(172, 166, 226, 0.678);
+}

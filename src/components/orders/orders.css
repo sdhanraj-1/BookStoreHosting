@@ -1,0 +1,83 @@
+/* Add these styles to your CSS file */
+
+.orderPage {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.orderTitle {
+	font-size: 24px;
+	color: #8294c4;
+	text-align: center;
+	display: block;
+	width: auto;
+	height: 50px;
+	margin-top: 70px;
+	background-color: #dbdfea;
+	line-height: 50px;
+}
+
+.order {
+	border: 1px solid #ddd;
+	padding: 15px;
+	margin-bottom: 20px;
+	box-shadow: #d5c3c3;
+}
+.order .orderLine {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 20px;
+	box-shadow: 5px #ddd;
+}
+.order-details {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	color: #fff; /* Adjust the color for better visibility */
+	z-index: 2; /* Ensure it's above the image */
+}
+.order-details p {
+	background-color: rgba(243, 238, 234, 0.9);
+}
+.order p {
+	font-size: 16px;
+	color: #bb9cc0;
+}
+.order span {
+	color: #e7bcde;
+	font-family: American Typewriter, serif;
+	padding: 6px;
+}
+.order img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 1rem;
+	padding: auto;
+}
+.order-details span {
+	color: #b0a695;
+	font-weight: 600;
+	background-color: rgba(238, 245, 255, 0.8);
+}
+.order .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(195, 172, 208, 0.6);
+	border-radius: 1rem;
+	z-index: 1; /* Ensure it's below the text */
+}

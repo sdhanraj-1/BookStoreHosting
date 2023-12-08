@@ -1,0 +1,62 @@
+.dropdown-container {
+	max-height: 200px;
+	overflow-y: auto;
+	position: absolute;
+	top: 0;
+	left: 75%; /* Position to the right of the AddToBL component */
+	margin-top: -10px; /* Adjust the margin to align the top of the dropdown with the button */
+	width: 200px; /* Set the width to your desired value */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for a visual separation */
+	border-radius: 10px; /* Add rounded edges */
+}
+
+.dropdown-list {
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: white;
+	z-index: 8;
+}
+
+.dropdown-list li {
+	color: black;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.dropdown-list li:last-child {
+	border-bottom: none;
+}
+
+.dropdown-list li:hover {
+	background-color: rgba(
+		172,
+		166,
+		226,
+		0.678
+	); /* Add your desired highlight color */
+	cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+/* For WebKit browsers */
+.dropdown-container::-webkit-scrollbar {
+	width: 10px; /* Set the width of the scrollbar */
+}
+
+/* Track */
+.dropdown-container::-webkit-scrollbar-track {
+	background: #f1f1f1; /* Set the background color of the track */
+}
+
+/* Handle */
+.dropdown-container::-webkit-scrollbar-thumb {
+	background: #888; /* Set the color of the scrollbar handle */
+	border-radius: 5px; /* Add rounded edges to the scrollbar handle */
+}
+
+/* Handle on hover */
+.dropdown-container::-webkit-scrollbar-thumb:hover {
+	background: #555; /* Set the color of the scrollbar handle on hover */
+}

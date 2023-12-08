@@ -1,0 +1,44 @@
+/* UserActions.css */
+
+.user-actions-container {
+	/* margin-bottom: 20px; */
+}
+
+.action-button {
+	padding: 10px;
+	background-color: #ecd0d0;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+}
+.action-button:hover {
+	background-color: rgba(172, 166, 226, 0.774);
+	border-radius: 10px;
+	color: #fff;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.action-button i {
+	margin-right: 5px;
+}
+
+.error-container {
+	display: flex;
+	align-items: center;
+	background-color: #e74c3c;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.close-button {
+	background-color: transparent;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	margin-right: 10px;
+}
